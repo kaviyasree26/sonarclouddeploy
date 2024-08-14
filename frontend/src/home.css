@@ -1,0 +1,250 @@
+.homepage {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .hero {
+    background: url('https://e0.pxfuel.com/wallpapers/561/410/desktop-wallpaper-job-posting-sites-for-your-next-hire-employment-background-investigations-inc.jpg') no-repeat center center/cover;
+    padding: 240px 150px;
+    max-height:100%;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .hero-content {
+    max-width: 900px;
+    max-height: 1000px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .search-form input {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  .search-form button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #79c5da;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .featured-jobs {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .featured-jobs h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  .job-li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+  }
+  
+  .job-ca{
+    background-color: #24678e;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .job-ca:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .company-logo {
+    max-width: 60px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: 2px solid #e6e7e7;
+    padding: 5px;
+  }
+  
+  .job-det h3 {
+    font-size: 1.5rem;
+    color: #fdfeff;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .job-det p {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #faf9f9;
+  }
+  
+  .location {
+    color: #555;
+  }
+  
+  .apply-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #c1c0ca;
+    background-color: #150a4a;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .apply-button:hover {
+    background-color: #fafafa;
+  }
+  
+  .career-advice {
+    padding: 60px 20px;
+    background-color: #465786;
+  }
+  
+  .career-advice h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fbf8f8;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .advice-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .advice-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .advice-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .advice-image {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .read-more {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline;
+  }
+  
+  .testimonials {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .testimonials h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .testimonial-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .testimonial-card {
+    background-color: #7fb5d2;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .call-to-action {
+    padding: 60px 20px;
+    background-color: #133559;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .call-to-action h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .call-to-action p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #0e0d0d;
+    background-color: #ebf0ec;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #e8ece9;
+  }
+  

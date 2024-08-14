@@ -1,0 +1,136 @@
+.company-dashboard {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #3c356e;
+}
+
+.dashboard-title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #fff8f8;
+}
+
+.create-post-button {
+  display: block;
+  margin: 20px auto;
+  padding: 5px 20px;
+  max-width:150px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-post-button:hover {
+  background-color: #0056b3;
+}
+
+.create-post-form {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.create-post-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.create-post-form input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.create-post-form button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.create-post-form button.cancel {
+  background-color: #dc3545;
+}
+
+.create-post-form button:hover {
+  background-color: #218838;
+}
+
+.create-post-form button.cancel:hover {
+  background-color: #669bd8;
+}
+
+.company-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.company-card {
+  background: #b3f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.company-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.company-details {
+  text-align: center;
+}
+
+.company-name {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.company-description {
+  font-size: 0.9em;
+  color: #777;
+  margin: 5px 0;
+}
+
+.vacancies,
+.job-seekers,
+.date-posted {
+  font-size: 0.9em;
+  color: #333;
+}
+
+.delete-post-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #191c5a;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.delete-post-button:hover {
+  background-color: #5785b7;
+}
